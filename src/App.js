@@ -8,11 +8,11 @@ import { lightTheme } from "./components/Themes";
 import Loading from "";
 
 // components
-const Main = lazy(() => import(""));
-const AboutPage = lazy(() => import(""));
-const ResumePage = lazy(() => import(""));
-const WorkPage = lazy(() => import(""));
-const ContactPage = lazy(() => import(""));
+const Main = lazy(() => import("./components/Main"));
+const AboutPage = lazy(() => import("./components/AboutPage"));
+const ResumePage = lazy(() => import("./components/ResumePage"));
+const WorkPage = lazy(() => import("./components/WorkPage"));
+const ContactPage = lazy(() => import("./components/ContactPage"));
 const SoundBar = lazy(() => import(""));
 
 function App() {
