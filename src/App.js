@@ -1,5 +1,5 @@
 // imports
-import { Routes, Route, useLocation } from "react-router-dom";
+import { BrowserRouter as Routes, Route, useLocation } from "react-router-dom";
 import { AnimatePresence } from "framer-motion";
 import { lazy, Suspense } from "react";
 import GlobalStyle from "./globalStyles";
