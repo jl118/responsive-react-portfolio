@@ -8,7 +8,7 @@ import Loading from "../subComponents/Loading";
 
 //Components
 const SocialIcons = lazy(() => import("../subComponents/SocialIcons"));
-const HomeBtn = lazy(() => import("../subComponents/PowerButton"));
+const HomeBtn = lazy(() => import("../subComponents/HomeBtn"));
 const LogoComponent = lazy(() => import("../subComponents/LogoComponent"));
 const ParticlesComponent = lazy(() =>
   import("../subComponents/ParticlesComponent")

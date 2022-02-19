@@ -3,7 +3,7 @@ import { lazy, Suspense } from 'react'
 import styled, { keyframes, ThemeProvider } from 'styled-components'
 
 import { DarkTheme, mediaQueries } from './Themes'
-import spacecat from "../assets/Images/spacecat.png";
+import spacecat from "../assets/Images/spacecat.svg";
 import Loading from '../subComponents/Loading';
 //Components
 const SocialIcons = lazy(() => import('../subComponents/SocialIcons'))

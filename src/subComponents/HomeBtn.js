@@ -1,4 +1,4 @@
-import { HomeBtn } from "../components/Svgs";
+import { HomeButton } from "../components/Svgs";
 import styled from "styled-components";
 import { NavLink } from "react-router-dom";
 import { mediaQueries } from "../components/Themes";
@@ -46,7 +46,7 @@ const HomeBtn = () => {
   return (
     <Home>
       <NavLink to="/">
-        <HomeBtn width={30} height={30} fill="currentColor" />
+        <HomeButton width={30} height={30} fill="currentColor" />
       </NavLink>
     </Home>
   );

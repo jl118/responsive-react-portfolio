@@ -257,7 +257,7 @@ const Main = () => {
                 whileTap={{ scale: 0.9 }}
               >
                 <a href="jennifer_resume.pdf" download="JenniferLiebelt_Resume.pdf">
-                    My Resume {Cloud}
+                    My Resume {Download}
                 </a>
               </motion.h3>
             </RESUME>
